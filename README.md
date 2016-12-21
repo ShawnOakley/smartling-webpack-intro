@@ -54,7 +54,7 @@ Module resolving
 
 `modulesDirectories` makes possible to resolve module within specified pathes. To resolve means to find it by simple `require('moduleName')`.
 
-`extensions` means which extensions are possible. Note that `''` makes possible to use and require modules without extension like this: `touch module` `require(./module) // requires nesly created module`
+`extensions` means which extensions are possible. Note that `''` makes possible to use and require modules without extension like this: `touch module` `require(./module) // requires newly created module`
 
 FOR PERFORMANCE: Keep as less as possible `modulesDirectories` as well as `extensions`.
 
